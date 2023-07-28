@@ -22,7 +22,7 @@
 		const header = document.querySelector('header');
 		const section = document.querySelector('section');
 		/* STEP 3: Store the URL of a JSON file in a variable */
-		const requestURL = 'https://github.com/Pavneet2003-prog/Lab10/blob/main/js/i-scream.json';
+		const requestURL = 'https://pavneet2003-prog.github.io/Lab10/js/i-scream.json';
 		/* STEP 4: Create a new XHR object */
 		const request = new XMLHttpRequest();
 		/* STEP 5: Open a new request using the open() method */
@@ -63,7 +63,7 @@
 				const p2 = document.createElement('p');
 				const list = document.createElement('ul');
 				// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-				img.setAttribute('src', 'https://github.com/Pavneet2003-prog/Lab10/blob/main/images/' + topFlavors[i].image);
+				img.setAttribute('src', 'https://pavneet2003-prog.github.io/Lab10/images/' + topFlavors[i].image);
 				img.setAttribute('alt', topFlavors[i].name);
 				h2.textContent = topFlavors[i].name;
 				p1.textContent = 'Calories: ' + topFlavors[i].calories;
